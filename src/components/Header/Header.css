@@ -1,0 +1,35 @@
+nav{
+    line-height: 50px;
+}
+
+nav li{
+    display: inline;
+    margin-left: 40px;
+    vertical-align: middle;
+}
+nav li:last-child a{
+    background-color: #F9A51A;
+    color: #000000;
+    padding: 10px 25px; 
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+}
+nav li:hover{
+    background-color: #F9A51A;
+    color: black;
+    padding: 10px 25px;
+}
+.search-input{
+    margin-left: 80px;
+    border: 1px solid white;
+    border-radius: 4px;
+    width: 370px;
+    height: 44px; 
+    color: #4D4E51;
+}
+.menu{
+    margin-left: 100px;
+}
+
