@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+}
+
+.image-container{
+   margin-top: 70px;
+   position: relative;
+}
+
+.image-container h2{
+    margin-left: 40px;
+    color: #fff;
+    position: absolute;
+    bottom: 20px;
+    text-transform: uppercase;
+ }
