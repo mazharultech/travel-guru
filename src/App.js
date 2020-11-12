@@ -10,6 +10,7 @@ import {
 import NoMatch from './components/NoMatch/NoMatch';
 import Login from './components/Login/Login';
 import Destination from './components/Destination/Destination';
+import Blog from './Blog/Blog';
 
 function App() {
   return (
@@ -22,7 +23,10 @@ function App() {
         <Route path="/login" >
             <Login />
         </Route>
-        <Route path="/destination" >
+        <Route path="/blog" >
+            <Blog />
+        </Route>
+        <Route path="/destination/:place" >
             <Destination />
         </Route>
         <Route exact path="/" >

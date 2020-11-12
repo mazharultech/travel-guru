@@ -1,0 +1,35 @@
+.container {
+    text-align: center;
+}
+
+.form{
+    width: 400px;
+    margin-left: 400px;
+    margin-top: 100px;
+    height: 450px;
+    border-radius: 4px;
+    text-align: center;
+    border: 1px solid #5a5757;
+}
+
+.form-control{
+    width: 300px;
+    margin-bottom: 30px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #5a5757;
+}
+.sign-up-button{
+    background-color: goldenrod;
+    width: 300px;
+    height: 40px;
+}
+.login-button{
+    vertical-align: middle;
+    width: 320px;
+    outline: none;
+    margin-bottom: 10px;
+    border: 1px solid #5a5757;
+    border-radius: 30px;
+    height: 40px;
+}
